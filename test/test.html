@@ -1,9 +1,24 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-	<script src="../../dojo/dojo.js" data-dojo-config="async: true"></script>
+	<script src="http://requirejs.org/docs/release/1.0.6/minified/require.js"></script>
 	<script>
-		require(["commonjs-package-template/test/some-test"]);
+		require(["../stats"], function(Stats) {
+      var stats = new Stats();
+
+      // Align top-left
+      stats.getDomElement().style.position = 'absolute';
+      stats.getDomElement().style.left = '0px';
+      stats.getDomElement().style.top = '0px';
+
+      document.body.appendChild( stats.getDomElement() );
+
+      setInterval( function () {
+
+        stats.update();
+
+      }, 1000 / 60 );
+		});
 	</script>
 	</head>
 	<body>
