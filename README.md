@@ -36,6 +36,16 @@ require([ 'Stats' ], function ( Stats ) {
 });
 ```
 
+### Building ###
+
+Building requires CoffeeScript and UglifyJS be installed
+
+If you are using NPM, install the them with
+
+```
+npm install -g coffee-script uglify-js
+```
+
 ### Change Log ###
 
 2012 02 19 - **AMD** (3.136 KB, 1,159 B)
