@@ -1,27 +1,45 @@
 {
-  "name": "commonjs-package-template",
-  "mappings": {
-    "dojo": "https://github.com/dojo/dojo/zipball/1.7.0",
-    "dijit": "https://github.com/dojo/dijit/zipball/1.7.0"
+  "name": "stats",
+  "description": "AMD version of Mr.doob's Stats.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/phated/stats-amd",
+  "author": {
+    "name": "Blaine Bublitz",
+    "email": "blaine@iceddev.com",
+    "web": "https://github.com/phated"
   },
-  "description": "Template for CommonJS packages",
-  "licenses": [
-     {
-         "type": "AFLv2.1",
-         "url": "http://trac.dojotoolkit.org/browser/dojo/trunk/LICENSE#L43"
-     },
-     {
-         "type": "BSD",
-         "url": "http://trac.dojotoolkit.org/browser/dojo/trunk/LICENSE#L13"
-     }
+  "maintainers": [
+    {
+      "name": "Blaine Bublitz",
+      "email": "blaine@iceddev.com",
+      "web": "https://github.com/phated"
+    }
   ],
-  "bugs": "http://bugs.dojotoolkit.org/",
-  "keywords": ["Template"],
-  "homepage": "http://dojotoolkit.org/",
-  "dependencies": {
-    "dojo": "1.7.0",
-    "dijit": "1.7.0"
+  "contributors": [
+    {
+      "name": "Blaine Bublitz",
+      "email": "blaine@iceddev.com",
+      "web": "https://github.com/phated"
+    },
+    {
+      "name": "Mr.doob",
+      "web": "http://mrdoob.com"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/phated/stats-amd/raw/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phated/stats-amd"
   },
-  "main": "./component",
-  "icon": "http://dojofoundation.org/images/icons/5.png"
+  "bugs": "https://github.com/phated/stats-amd/issues",
+  "keywords": [
+    "Performance"
+  ],
+  "dependencies": {},
+  "main": "./stats"
 }
