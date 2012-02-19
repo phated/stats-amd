@@ -18,7 +18,7 @@ This class provides a simple info box that will help you monitor your code perfo
 ### Usage ###
 
 ```javascript
-require([ 'Stats' ], function ( Stats ) {
+require([ 'stats' ], function ( Stats ) {
   var stats = new Stats();
 
   // Align top-left
@@ -45,6 +45,10 @@ If you are using NPM, install the them with
 ```
 npm install -g coffee-script uglify-js
 ```
+
+The build process generates 2 minified files, `stats.js` and `main.js` in the root of the project.
+The reason for this is that RequireJS and the Dojo Loader look for `main.js` unless otherwise specified,
+but I want to specify `stats.js` as the main file in `package.json` as it gives a more descriptive name when viewing scripts on the client.
 
 ### Change Log ###
 

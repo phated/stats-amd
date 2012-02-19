@@ -1,2 +1,3 @@
 coffee -cb -j ./src/js/Stats.js ./src/coffee/Stats.coffee
 uglifyjs -o stats.js ./src/js/Stats.js
+uglifyjs -o main.js ./src/js/Stats.js
