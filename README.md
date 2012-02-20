@@ -46,9 +46,9 @@ If you are using NPM, install the them with
 npm install -g coffee-script uglify-js
 ```
 
-The build process generates 2 minified files, `stats.js` and `main.js` in the root of the project.
-The reason for this is that RequireJS and the Dojo Loader look for `main.js` unless otherwise specified,
-but I want to specify `stats.js` as the main file in `package.json` as it gives a more descriptive name when viewing scripts on the client.
+The build process generates a minified file named `main.js` in the root of the project.
+The reason for this is that RequireJS and the Dojo Loader look for `main.js` unless otherwise specified.
+This is mainly for cloning this repo directly and not using CPM.
 
 ### Change Log ###
 

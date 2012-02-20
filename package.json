@@ -4,20 +4,20 @@
   "version": "0.1.0",
   "homepage": "https://github.com/phated/stats-amd",
   "author": {
-    "name": "Blaine Bublitz",
+    "name": "Phated (Blaine Bublitz)",
     "email": "blaine@iceddev.com",
     "web": "https://github.com/phated"
   },
   "maintainers": [
     {
-      "name": "Blaine Bublitz",
+      "name": "Phated (Blaine Bublitz)",
       "email": "blaine@iceddev.com",
       "web": "https://github.com/phated"
     }
   ],
   "contributors": [
     {
-      "name": "Blaine Bublitz",
+      "name": "Phated (Blaine Bublitz)",
       "email": "blaine@iceddev.com",
       "web": "https://github.com/phated"
     },
@@ -38,8 +38,10 @@
   },
   "bugs": "https://github.com/phated/stats-amd/issues",
   "keywords": [
+    "AMD",
+    "Profiling",
     "Performance"
   ],
   "dependencies": {},
-  "main": "./stats"
+  "main": "./main"
 }
