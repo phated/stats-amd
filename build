@@ -1,2 +1,2 @@
-coffee -cb -j ./src/js/main.js ./src/coffee/main.coffee
-uglifyjs -o main.js ./src/js/main.js
+coffee -cb -j ./lib/js/main.js ./lib/coffee/main.coffee
+uglifyjs -o main.js ./lib/js/main.js
